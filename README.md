@@ -3,6 +3,7 @@ RecyclerView多布局，“我的”、“个人中心” 页面经典写法
 
 
 ![](https://github.com/yechaoa/MultipleItemPage/raw/master/gif/multiple_item_page.gif)
+![](https://github.com/yechaoa/MultipleItemPage/raw/master/gif/multiple_item_page.png)
 
 
 ```
