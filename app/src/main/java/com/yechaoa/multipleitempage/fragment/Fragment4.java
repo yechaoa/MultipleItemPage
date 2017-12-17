@@ -129,20 +129,9 @@ public class Fragment4 extends Fragment {
 
 
     private void initRecyclerView() {
-        switch (multipleItem.getItemType()) {
-            case MultipleItem.TYPE_COUNT:
-            case MultipleItem.TYPE_ORDER_HEADER:
-            case MultipleItem.TYPE_BALANCE:
-            case MultipleItem.TYPE_TOOLS_HEADER:
-                LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true);
-                mRecyclerView.setLayoutManager(linearLayoutManager);
-                break;
-            case MultipleItem.TYPE_ORDER:
-            case MultipleItem.TYPE_TOOLS:
-                GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 5);
-                mRecyclerView.setLayoutManager(gridLayoutManager);
-                break;
-        }
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 5);
+        mRecyclerView.setLayoutManager(gridLayoutManager);
 
         multipleItemQuickAdapter = new MultipleItemQuickAdapter(itemDataList);
 
