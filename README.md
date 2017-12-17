@@ -472,7 +472,8 @@ public class MultipleItemQuickAdapter extends BaseMultiItemQuickAdapter<Multiple
 > Demo是从项目里抽出来的，好像也没什么要注意的了吧。。忘了。。
 
 <br>
-
+#### 博客：http://blog.csdn.net/yechaoa/article/details/78825588
+<br>
 
 ```
    Copyright 2017 yechaoa
