@@ -129,7 +129,6 @@ public class Fragment4 extends Fragment {
 
 
     private void initRecyclerView() {
-
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 5);
         mRecyclerView.setLayoutManager(gridLayoutManager);
 
